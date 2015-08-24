@@ -18,7 +18,8 @@
   ],
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "requirejs-config.js"
   ],
   "dependencies": {},
   "devDependencies": {},

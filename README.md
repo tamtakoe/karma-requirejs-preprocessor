@@ -29,14 +29,14 @@ module.exports = function(config) {
     
       requirejsPreprocessor: {
           config: {
-              baseUrl: '/base/src/', //replace baseUrl of original configs
-              paths: { //extend paths of original configs
+              baseUrl: '/base/src/', //replace baseUrl of original config
+              paths: { //extend paths of original config
                   angularMocks: 'vendor/angular-mocks/angular-mocks'
               },
-              shim:  { //extend shim of original configs
+              shim:  { //extend shim of original config
                   angularMocks: ['angular']
               },
-              deps:  [ //replace deps of original configs
+              deps:  [ //replace deps of original config
                   'angularMocks'
               ]
           },

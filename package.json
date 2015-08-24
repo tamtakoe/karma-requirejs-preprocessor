@@ -1,0 +1,31 @@
+{
+  "name": "karma-requirejs-preprocessor",
+  "description": "A Karma plugin. Extend project RequireJs config by test RequireJs config",
+  "version": "0.0.1",
+  "author": {
+    "name": "tamtakoe",
+    "email": "tamtakoe@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tamtakoe/karma-requirejs-preprocessor.git"
+  },
+  "keywords": [
+    "karma-plugin",
+    "karma-preprocessor",
+    "requirejs"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {
+    "karma": ">=0.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

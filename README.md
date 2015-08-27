@@ -28,7 +28,7 @@ module.exports = function(config) {
       },
     
       requirejsPreprocessor: {
-          config: {
+          config: { //test RequireJs config
               baseUrl: '/base/src/', //replace baseUrl of original config
               paths: { //extend paths of original config
                   angularMocks: 'vendor/angular-mocks/angular-mocks'

@@ -64,7 +64,7 @@ Custom RegExp for test files searching. Default `/spec\.js$/`
 
 ## License
 
-© Oleg Istomin 2015
+© Oleg Istomin 2015.
 Released under the MIT license
 
 ***

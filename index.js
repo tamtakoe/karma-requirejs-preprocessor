@@ -12,11 +12,11 @@ var createRequirejsPreprocessor = function (logger, config, basePath) {
 
         function mergeConfigs(projectConfig, config) {
             var testConfig = config.config;
-            var testRegexp = config.testRegexp || /spec\.js$/;
+            var testRegexp = typeof config.testRegexp === 'string' ? new RegExp(config.testRegexp) : /spec\.js$/;
 
             if (!testConfig || !window.__karma__) return projectConfig;
 
-            var baseUrlRegexp = new RegExp('^' + testConfig.baseUrl);
+            var baseUrlRegexp = new RegExp('^' + (testConfig.baseUrl.slice(-1) === '/' ? testConfig.baseUrl : testConfig.baseUrl + '/'));
 
             function isObject(obj) {
                 return typeof obj === 'object' && !(obj instanceof Array);

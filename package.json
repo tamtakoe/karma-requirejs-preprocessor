@@ -1,7 +1,7 @@
 {
   "name": "karma-requirejs-preprocessor",
   "description": "A Karma plugin. Extend project RequireJs config by test RequireJs config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "tamtakoe",
     "email": "tamtakoe@gmail.com"

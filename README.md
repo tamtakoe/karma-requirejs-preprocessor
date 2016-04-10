@@ -40,7 +40,7 @@ module.exports = function(config) {
                   'angularMocks'
               ]
           },
-          testRegexp: /(spec|test)\.js$/
+          testRegexp: '(spec|test)\.js$' //Should be a valid regular expression
       },
   });
 };
@@ -56,9 +56,9 @@ Type: `Object`
 RequireJS config for test environment
 
 ##### testRegexp
-Type: `RegExp`
+Type: `String`
 
-Custom RegExp for test files searching. Default `/spec\.js$/`
+Custom regular expression for test files searching. Used in instantiating a new RegExp object. Default `spec\.js$`
 
 
 

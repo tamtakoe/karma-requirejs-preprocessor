@@ -4,7 +4,7 @@ module.exports.parse = function(requireConfigFile) {
         "requirejs = require = function() {}," +
         "define = function () {};" +
         "require.config = function (options) { output = options; };" +
-        "" + requireConfigFile + "\n;" +
+        "" + requireConfigFile + ";\n" +
         "return output;"
     )();
 };
